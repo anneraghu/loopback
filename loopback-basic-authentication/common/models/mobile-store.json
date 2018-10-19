@@ -1,0 +1,30 @@
+{
+  "name": "MobileStore",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true,
+      "default": "New Jersey"
+    },
+    "phone": {
+      "type": "number"
+    },
+    "isOpened": {
+      "type": "boolean",
+      "default":true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
